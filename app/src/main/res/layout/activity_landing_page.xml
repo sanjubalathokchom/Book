@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Landing_page">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="?attr/actionBarSize"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        app:itemIconSize="30dp"
+        app:itemPaddingBottom="10dp"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="#4251A1"
+        android:background="@color/white"
+        app:menu="@menu/nav_items"
+       />
+</RelativeLayout>
+
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/location"-->
+    <!--        android:layout_width="53dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="278dp"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/location_btn"-->
+    <!--            android:layout_width="28dp"-->
+    <!--            android:layout_height="28dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginTop="15dp"-->
+    <!--            android:background="#4251A1"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:src="@drawable/round_location_on_24" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/edit1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="chennai"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textSize="10dp"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"/>-->
+    <!--    </LinearLayout>-->
+
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/toolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:elevation="50dp"-->
+    <!--        android:background="#4251A1"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        android:theme="?attr/actionBarTheme"-->
+    <!--        >-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent">-->
+
+    <!--            <ImageView-->
+    <!--                android:layout_width="40dp"-->
+    <!--                android:layout_height="41dp"-->
+    <!--                android:layout_marginTop="10dp"-->
+    <!--                android:layout_marginRight="5dp"-->
+    <!--                android:adjustViewBounds="false"-->
+    <!--                android:cropToPadding="false"-->
+    <!--                android:src="@mipmap/app_icon_round"-->
+    <!--                />-->
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:text="MovieMate"-->
+    <!--                android:textColor="#050505"-->
+    <!--                android:textSize="25dp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <LinearLayout-->
+    <!--                android:id="@+id/location"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginLeft="100dp"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <ImageButton-->
+    <!--                    android:id="@+id/location_btn"-->
+    <!--                    android:layout_width="28dp"-->
+    <!--                    android:layout_height="28dp"-->
+    <!--                    android:layout_gravity="center"-->
+    <!--                    android:layout_marginTop="10dp"-->
+    <!--                    android:background="#4251A1"-->
+    <!--                    android:scaleType="fitXY"-->
+    <!--                    android:src="@drawable/round_location_on_24" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/edit1"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="Bangalore"-->
+    <!--                    android:padding="1dp"-->
+    <!--                    android:textSize="10dp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    android:textColor="@color/black"/>-->
+    <!--            </LinearLayout>-->
+
+    <!--            <ImageButton-->
+    <!--                android:id="@+id/image2"-->
+    <!--                android:layout_width="35dp"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_marginLeft="15dp"-->
+    <!--                android:layout_marginBottom="5dp"-->
+    <!--                android:background="#4251A1"-->
+    <!--                android:scaleType="fitCenter"-->
+    <!--                android:src="@drawable/search_logo" />-->
+    <!--        </LinearLayout>-->
+
+    <!--    </androidx.appcompat.widget.Toolbar>-->
+
+    <!--<RelativeLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginTop="?attr/actionBarSize">-->
+
+    <!--    <androidx.recyclerview.widget.RecyclerView-->
+    <!--        android:id="@+id/recycler"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+
+    <!--        android:layout_centerInParent="true" />-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/float_filter"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_marginRight="31dp"-->
+    <!--        android:layout_marginTop="550dp"-->
+    <!--        android:src="@drawable/filter_icon"-->
+    <!--        app:backgroundTint="#67ADCC"-->
+    <!--        app:borderWidth="20dp"-->
+    <!--        app:fabCustomSize="50dp"-->
+    <!--        app:maxImageSize="30dp" />-->
+
+    <!--    </RelativeLayout>-->
+
+    <!--    </FrameLayout>-->

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieMate</string>
+    <string name="jawan">Jawan is a 2023 Indian Hindi-language action thriller film co-written and directed by Atlee as his first Hindi film.It is produced by Gauri Khan and Gaurav Verma under Red Chillies Entertainment.</string>
+    <string name="omg">OMG 2 is a 2023 Indian Hindi-language comedy-drama film about sex education in India, written and directed by Amit Rai.It is a spiritual sequel to OMG – Oh My God! (2012), and stars Akshay Kumar, Pankaj Tripathi and Yami Gautam Dhar.</string>
+    <string name="jailer">Jailer is a 2023 Indian Tamil-language action comedy film directed by Nelson Dilipkumar and produced by Kalanithi Maran of Sun Pictures. The film stars Rajinikanth in the lead role, alongside Vinayakan, Ramya Krishnan, Vasanth Ravi, Tamannaah, Sunil, Mirnaa Menon and Yogi Babu in supporting roles</string>
+    <string name="gadar">Gadar 2 is a 2023 Indian Hindi-language period action drama film directed and produced by Anil Sharma and written by Shaktimaan Talwar. A sequel to Gadar: Ek Prem Katha (2001), it stars Sunny Deol, Ameesha Patel and Utkarsh Sharma.</string>
+    <string name="bhola">Bhola Shankar is a 2023 Indian Telugu-language action film directed by Meher Ramesh.A remake of the 2015 Tamil film Vedalam, it stars Chiranjeevi as the titular character with Tamannaah Bhatia, Keerthy Suresh and Sushanth.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

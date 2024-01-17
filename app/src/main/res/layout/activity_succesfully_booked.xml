@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccesfullyBooked">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="#FFFFFF"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMarginStart="100dp">
+
+    <View
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        />
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#00BCD4"
+            android:text="Back to home"
+            app:cornerRadius="8dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="Successfully Booked"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/li">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Name : "
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/Movie"/>
+
+        <TextView
+            android:id="@+id/Movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/li"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/li1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/Date"/>
+        <TextView
+            android:id="@+id/Conf_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/li1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:id="@+id/li2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="Time : "
+            android:textStyle="bold"
+            android:id="@+id/Time"/>
+        <TextView
+            android:id="@+id/conf_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="23dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/li2"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/li3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theater: "
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/Theater"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:id="@+id/TheaterName"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/li3"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:src="@drawable/tick" />
+
+
+
+</RelativeLayout>
+
+
+

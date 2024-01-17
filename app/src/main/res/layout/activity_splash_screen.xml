@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idRLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--on below line we are adding an image view-->
+
+    <!--on below line we are creating progress bar-->
+
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/img" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="420dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="The fututre of ticket Booking"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textStyle="bold|italic" />-->
+
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVLogo"
+        android:layout_marginTop="-50dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white" />
+
+
+
+</RelativeLayout>

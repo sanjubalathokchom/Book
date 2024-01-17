@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookTicketApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".RateApp"
+            android:exported="false" />
+        <activity
+            android:name=".TermsConditions"
+            android:exported="false" />
+        <activity
+            android:name=".Seats"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPass"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SuccesfullyBooked"
+            android:exported="false" />
+        <activity
+            android:name=".MakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".AddFood"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Gadar"
+            android:exported="false" />
+        <activity
+            android:name=".BholaShankar"
+            android:exported="false" />
+        <activity
+            android:name=".Jailer"
+            android:exported="false" />
+        <activity
+            android:name=".Omg"
+            android:exported="false" />
+        <activity
+            android:name=".Jawan"
+            android:exported="false" />
+        <activity
+            android:name=".Location"
+            android:exported="false" />
+        <activity
+            android:name=".Theatre_list"
+            android:exported="false" />
+        <activity
+            android:name=".Landing_page"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Filter"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

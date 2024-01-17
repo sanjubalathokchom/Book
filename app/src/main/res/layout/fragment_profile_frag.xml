@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_frag">
+
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="95dp"
+    android:background="#90D2DA"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme" >
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        />
+
+</androidx.appcompat.widget.Toolbar>
+
+<com.google.android.material.appbar.MaterialToolbar
+android:id="@+id/materialToolbar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#90D2DA"
+android:minHeight="?attr/actionBarSize"
+android:theme="?attr/actionBarTheme" />
+
+<androidx.cardview.widget.CardView
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="70dp"
+android:layout_width="350dp"
+android:background="#DFD8D8"
+android:layout_height="100dp">
+
+
+<com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/materialToolbar1"
+    android:layout_width="350dp"
+    android:layout_height="100dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/white"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="145dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:outlineSpotShadowColor="@color/black"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-1dp"
+        android:textStyle="bold"
+        android:text="Praveen G"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/profile_number"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="7892676729"
+        android:textSize="15sp"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+android:layout_width="323dp"
+android:layout_height="320dp"
+android:layout_gravity="center_horizontal"
+android:layout_marginVertical="90pt">
+
+
+<RelativeLayout
+    android:id="@+id/relmain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_background">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/rateApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+
+            android:text="Rate our app"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rel1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFD8D8" />
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/termsConditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Terms and condition"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rel2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFD8D8" />
+
+    <RelativeLayout
+        android:id="@+id/rel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view2"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Feedback"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rel3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFD8D8" />
+
+    <RelativeLayout
+        android:id="@+id/rel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view3"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/del_acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Delete Account"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rel4"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#DFD8D8" />
+
+    <RelativeLayout
+        android:id="@+id/rel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="Log Out"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+</FrameLayout>
+
+

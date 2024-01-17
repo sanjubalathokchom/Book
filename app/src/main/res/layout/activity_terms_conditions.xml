@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:ignore="ExtraText">
+
+        <View
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/baseline_arrow_back_24"
+            android:layout_alignParentLeft="true"
+            />
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and conditions"
+            android:layout_marginTop="-30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="
+These terms and conditions govern the use of the Show Ticket mobile application and website  for booking movie tickets. By using our Service, you agree to comply with and be bound by these terms. If you do not agree with these terms, please do not use the Service."/>
+        android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_below="@id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="1. User Registration and Account"
+            />
+
+        <TextView
+            android:id="@+id/textview1_1"
+            android:layout_below="@id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1.1. You may need to create an account to use some features of the Service. When creating an account, you agree to provide accurate and complete information."/>
+        />
+
+        <TextView
+            android:id="@+id/textview1_2"
+            android:layout_below="@id/textview1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1.2. You are responsible for maintaining the confidentiality of your account and password. Any activity under your account is your responsibility."/>
+        />
+
+        <TextView
+            android:id="@+id/textview1_3"
+            android:layout_below="@id/textview1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="1.3. You must be at least 18 years old to create an account. If you are under 18, you may only use the Service with the involvement of a parent or guardian."/>
+        />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_below="@id/textview1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="2. Ticket Booking"/>
+
+        <TextView
+            android:id="@+id/textview2_1"
+            android:layout_below="@id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="2.1. The Service allows you to book movie tickets online. By booking a ticket, you agree to pay the specified ticket price and any applicable fees."/>
+
+        <TextView
+            android:id="@+id/textview2_2"
+            android:layout_below="@id/textview2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="2.2. Tickets are subject to availability. We do not guarantee the availability of specific seats or showtimes."/>
+
+        <TextView
+            android:id="@+id/textview2_3"
+            android:layout_below="@id/textview2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="2.3. Tickets purchased through the Service are non-refundable. Please review your booking carefully before confirming."/>
+
+
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_below="@id/textview2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="3. Disclaimers"/>
+
+        <TextView
+            android:id="@+id/textview3_1"
+            android:layout_below="@id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="3.1 The app is not responsible for any damages, including lost or stolen property."/>
+
+
+        <TextView
+            android:id="@+id/textview3_2"
+            android:layout_below="@id/textview3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="3.2  The app is not responsible for any injuries that occur on theater premises."/>
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_below="@id/textview3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="4. Account Security"/>
+
+        <TextView
+            android:id="@+id/textview4_1"
+            android:layout_below="@id/textview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="4.1 Users are responsible for maintaining the confidentiality of their account credentials."/>
+
+        <TextView
+            android:id="@+id/textview4_2"
+            android:layout_below="@id/textview4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="4.2 Any unauthorized use of accounts should be reported immediately."/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
